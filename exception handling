@@ -1,0 +1,13 @@
+try:
+    a=int(input("enter first number"))
+    b=int(input("enter second number"))
+    c=a/b
+    print(c)
+except:
+     print("can not divide by zero")
+     print("try again")
+else:
+    print("whoo no exception")
+finally:
+    print("i know exceptional handling")
+    
