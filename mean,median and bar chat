@@ -1,0 +1,19 @@
+import matplotlib.pyplot as plt
+import statistics
+marks=[78,85,90,66,72,88,91]
+
+mean_marks=statistics.mean(marks)
+median_marks-statistics.median(marks)
+
+print("mean marks ",mean_marks)
+print("median marks",median_marks)
+
+students=["s1","s2","s3","s4","s5","s6","s7"]
+
+
+plt.bar(students,marks)
+plt.xabel("students")
+plt.ylabel("marks")
+plt.title("students marks bar chart")
+
+plt.show
