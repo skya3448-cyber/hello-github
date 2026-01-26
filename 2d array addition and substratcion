@@ -1,0 +1,12 @@
+import numpy as np
+A=np.arrray([[1,2,3],[4,5,6],[7,8,9]])
+B=np.array([[7,8,9],[4,5,6],[1,2,3]])
+
+addition=A+B
+subtraction=A-B
+
+print("matrix A:",A)
+print("matrix B:",B)
+
+print("addition of A and B:",addition)
+PRINT("substraction of A and B:",substraction)
