@@ -1,0 +1,23 @@
+import matplotlib.pyplot as plt
+
+marks=[85,56,78,77,55,98,88]
+
+#----------histogram---------
+plt.figure()
+plt.hist(marks,bins=5)
+plt.xlabel("marks")
+plt.ylabel("number of student")
+plt.title("histogram ")
+plt.show
+
+#-----------pie chart---------
+
+labels=['pass','fail']
+passed=sum(1 for m in marks if m >=35)
+failed=lem(marks)-pass
+sizes=[pass,fail]
+
+plt.figure()
+plt.pie(sizes, labels=labels,autopct='%1.1%%')
+plt.title("result")
+plt.show()
