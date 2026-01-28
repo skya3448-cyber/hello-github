@@ -1,0 +1,8 @@
+#most common questions
+def fubonacci(n):
+    a,b=0,1
+    for i in range(n)
+         print(a,end" ")
+         a,b =b, a+b
+num=int(input())
+fibonacci(n)
