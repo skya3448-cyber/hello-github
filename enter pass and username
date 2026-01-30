@@ -1,0 +1,10 @@
+password=12345
+username="irfanlowda"
+
+password1=int(input("enter a  password"))
+username1=input("enter username")
+if password==password1 and username==username1:
+      print(f"hi{username}")
+else:
+      print("fuck you")
+   
