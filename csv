@@ -1,0 +1,12 @@
+import CSV
+filename="sky.CSV"
+ with open(filename,"w",newline="")as file:
+ writer=CSV.writer(file)
+ writer.writerrow(["ID","name","marks"])
+ writer.writerrow([1,"sky",99])
+ writer.writerrow([2,"sss",98])
+print("CSV written file")
+  with open(filename,"r")as file:
+ reader=CSV.reader(file)
+for row in reader
+ print(row)
