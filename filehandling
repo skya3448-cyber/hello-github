@@ -1,0 +1,17 @@
+filename=sky
+file=open(filename,"w")
+file.write("hello")
+file.close()
+print("write operations competed")
+
+file=open(filename,"r")
+content=file.read()
+file.close()
+print("read file content")
+print(content)
+
+file=open(filename,"a")
+file.write("hello bby")
+file.close()
+
+print("append operation completed")
