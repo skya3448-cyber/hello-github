@@ -1,0 +1,5 @@
+import numpy as np
+arr=np.arange(1,9)
+arr2d=arr.reshape(4,2)
+print("2d array")
+print(arr2d)
