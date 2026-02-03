@@ -1,0 +1,8 @@
+import os 
+filename="demo.txt"
+if os.path.exists(filename):
+   print("error")
+else:
+     file=open(filename,"w")
+    file.close()
+     print("file succesfully created"
